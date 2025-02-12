@@ -7,6 +7,8 @@ body {
     text-align: center; /* Centers text horizontally */
     margin: 0; /* Removes default margin */
     background-color: #FFD1DC; /* Pastel pink background color */
+    font-family: 'Dancing Script', cursive; /* Applies the new font */
+    color: #FF69B4; /* Valentine's-themed pink color for text */
 }
 
 p {
@@ -15,6 +17,7 @@ p {
     top: 50%; /* Adjust top as needed to position text over the image */
     left: 50%;
     transform: translate(-50%, -50%); /* Center the text */
+    color: #FF1493; /* A deeper pink color */
 }
 
 img {
@@ -25,4 +28,9 @@ img {
 button {
     font-size: 24px; /* Increases font size */
     padding: 10px 20px; /* Increases padding to make the button bigger */
+    background-color: #FF69B4; /* Valentine's-themed pink color for the button */
+    color: #FFFFFF; /* White color for button text */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Adds rounded corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
 }
