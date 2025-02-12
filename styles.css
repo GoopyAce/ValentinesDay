@@ -13,8 +13,8 @@ body {
 
 .container {
     position: relative; /* Allows absolute positioning of text inside */
-    width: 50%; /* Adjust the container width as needed */
-    max-width: 600px; /* Ensures the container doesn't get too wide */
+    width: 40%; /* Adjust the container width to make it smaller */
+    max-width: 400px; /* Ensures the container doesn't get too wide */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the container */
     margin-top: 20px; /* Adds space above the container */
 }
@@ -25,10 +25,10 @@ body {
 }
 
 .container p {
-    font-size: 100px;
+    font-size: 60px; /* Increases the font size to make the text bigger */
     position: absolute; /* Positions the text over the image */
-    top: 50%; /* Centers text vertically in the container */
-    left: 50%; /* Centers text horizontally in the container */
+    top: -20%; /* Adjusts the text position to be above the image */
+    left: 50%;
     transform: translate(-50%, -50%); /* Adjusts positioning */
     color: #FF1493; /* A deeper pink color */
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
