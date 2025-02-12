@@ -25,7 +25,7 @@ body {
 }
 
 .container p {
-    font-size: 48px;
+    font-size: 100px;
     position: absolute; /* Positions the text over the image */
     top: 50%; /* Centers text vertically in the container */
     left: 50%; /* Centers text horizontally in the container */
