@@ -3,7 +3,25 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-    text-align: center;
-    margin: 0;
+    height: 100vh; /* Makes sure the content is centered vertically within the viewport height */
+    text-align: center; /* Centers text horizontally */
+    margin: 0; /* Removes default margin */
+}
+
+p {
+    font-size: 48px; /* Adjust font size to ensure text covers the image */
+    position: absolute; /* Positioning to overlay the image */
+    top: 50%; /* Adjust top as needed to position text over the image */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+}
+
+img {
+    width: 50%; /* Scales down the image by half */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+button {
+    font-size: 24px; /* Increases font size */
+    padding: 10px 20px; /* Increases padding to make the button bigger */
 }
