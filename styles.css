@@ -24,7 +24,7 @@ body {
     height: auto; /* Maintains the aspect ratio of the image */
 }
 
-.container body {
+.container p {
     font-size: 120px; /* Larger font size for the text above the image */
     position: absolute; /* Positions the text over the image */
     top: 50%; /* Centers text vertically in the container */
