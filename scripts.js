@@ -75,7 +75,7 @@ const yuhButton = document.getElementById("yuhButton");
     const YUSButton = document.getElementById("YUSButton");
     if (YUSButton) {
         YUSButton.addEventListener("click", function() {
-            window.location.href = "100%.html"; // Change to your actual next page
+            window.location.href = "100.html"; // Change to your actual next page
         });
     }
 
